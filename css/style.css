@@ -1,0 +1,84 @@
+@charset "utf-8";
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+.ffJosefin {
+    font-family: 'Oswald', sans-serif;
+}
+.innerWrap {
+    width: 1240px;
+    margin: 0 auto;
+    padding: 80px 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main h2 {
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: .05em;
+    margin-bottom: 80px;
+}
+main ul li {
+    font-size: 16px;
+}
+header {
+    background color: #FCE4D5;
+}
+header .innerWrap {
+    height: 620px;
+}
+header h1 {
+    padding-top: 120px;
+    text-align: center;
+    line-height: 1.75;
+    margin-bottom: 40px;
+}
+/* header h1, h2 {
+    text-align: center;
+    line-height: 1.75;
+    margin-bottom: 40px;
+} */
+header nav {
+    font-size: 16px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 1240px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+.footer {
+    background-color: #111111;
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 15%;
+    display: flex;
+    line-height: 1.75;
+}
+.footer div {
+    text-align: center;
+}
+.copyright {
+    flex-grow: 2;
+}
+.CaseStudies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.CaseStudies li {
+    margin-bottom: 28px;
+}
